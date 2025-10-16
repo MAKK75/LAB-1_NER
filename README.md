@@ -8,10 +8,15 @@
 
 Используется русскоязычный раздел датасета **WikiNER**, доступный в библиотеке Hugging Face `datasets`. Данные загружаются и кэшируются автоматически при первом запуске ноутбука.
 
+## Веса модели
+
+Обученные веса для лучшей модели (Bi-LSTM + CRF) доступны для скачивания по ссылке. 
+
+*   **[Скачать веса модели (bilstm\_crf\_ner\_model.pt)](https://drive.google.com/file/d/1CSs6-JggpcNEC0OXVP8DK7sdiCLskxT9/view?usp=drive_link)**
+
 ## Структура репозитория
 
 *   `NER_LAB.ipynb`: Jupyter Notebook, содержащий весь код проекта.
-*   `models/bilstm_crf_ner_model.pt`: Сохраненные веса лучшей модели (Bi-LSTM + CRF).
 *   `requirements.txt`: Файл с необходимыми для запуска зависимостями.
 
 ## Инструкция по запуску
